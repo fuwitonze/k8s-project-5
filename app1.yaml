@@ -17,8 +17,8 @@ spec:
       nodeSelector:
         nodepool: resume
       containers:
-      - name: nginx
-        image: kayitesimarieange3h/resume-update:10
+      - name: resume
+        image: https://github.com/fuwitonze/k8s-project-5.git
         ports:
         - containerPort: 5001
 ---    
