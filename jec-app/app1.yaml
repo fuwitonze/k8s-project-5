@@ -21,6 +21,9 @@ spec:
         image: kayitesimarieange3h/resume-update:10
         ports:
         - containerPort: 5001
+      - name: sidecar
+        image: redis 
+     
 ---    
 apiVersion: v1
 kind: Service
